@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#F6DBD3"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/contactaddtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Add Contact"
+        android:textColor="#F3744C"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/contactaddname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textColorHint="#979494"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/contactaddnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColorHint="#979494"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/cbtncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="#F4AC95"
+            android:text="CANCEL"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/cbtnadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
